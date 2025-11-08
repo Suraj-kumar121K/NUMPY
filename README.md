@@ -21,7 +21,7 @@ NumPy-ultimate-course/
 │
 ├── Code_And_Theory/                           # Raw datasets used for the course (ERP and CRM data)
 
-
+```
 ---
 
 ## 🛡️ License
