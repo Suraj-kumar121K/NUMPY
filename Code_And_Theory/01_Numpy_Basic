@@ -1,7 +1,7 @@
-### 🧠 What is NumPy?
+--> 🧠 What is NumPy?
         NumPy (Numerical Python) is a Python library used for fast mathematical and scientific calculations.
 
-### ⚡ 2️⃣ Why Use NumPy?
+--> ⚡ Why Use NumPy?
 |              Reason                     |                                         Explanation                                          |                                         Example                           |                                        |
 |_________________________________________|______________________________________________________________________________________________|___________________________________________________________________________|
 | **1️⃣ Speed (Fast performance)**        | NumPy is written in C (low-level language), so it works much faster than normal Python lists. | Processing 1 million numbers takes seconds in NumPy but minutes in lists. |
@@ -12,13 +12,12 @@
 | **6️⃣ Integration**                     | Works perfectly with Pandas, Matplotlib, and ML libraries.                                    | Used in TensorFlow, Scikit-learn, etc.                                    |
 | **7️⃣ Vectorized operations**           | No loops needed — apply operation to whole array at once.                                     | `arr * 2` doubles every element instantly.                                |
 
-
-### ⚙️ NUMPY − ENVIRONMENT (Installation and Setup)
+--> ⚙️ NUMPY − ENVIRONMENT (Installation and Setup)
    NumPy use karne ke liye aapke system me Python aur pip install hona chahiye.
 
-### 🔸 Step 1 — Install NumPy
-pip install numpy
+-->🔸 Step 1 — Install NumPy
+      pip install numpy
 
-### 🔸 Step 2 — Verify installation
-import numpy as np
-print(np.__version__)
+-->🔸 Step 2 — Verify installation
+      import numpy as np
+      print(np.__version__)
