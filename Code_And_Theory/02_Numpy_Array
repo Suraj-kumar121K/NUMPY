@@ -1,10 +1,62 @@
 --> What is an Array?
     NumPy, an array is a container that holds multiple values of the same data type.
 
+    NumPy, an array is created using np.array() or array creation functions like zeros(), ones(), etc.
+
+--> 🟦 np.zeros() → Array filled with zeros
+        import numpy as np
+        arr = np.zeros((3, 4))
+        print(arr)
+
+--> 🟩 np.ones() → Array filled with ones
+      arr = np.ones((2, 3))
+      print(arr)
+
+--> 🟨 np.empty() → Array with random garbage values
+        arr = np.empty((2, 3))
+        print(arr)
+
+--> 🟧 np.arange() → Array with range of values
+        arr = np.arange(0, 10, 2)
+        print(arr)
+--> 🟥 np.linspace() → Array with evenly spaced numbers
+        arr = np.linspace(0, 1, 5)
+        print(arr)
+
+
 --> 🧮 Types of Arrays
      | Type    |        Description            |               Example                     |
      | ------- | ----------------------------- | ----------------------------------------- |
-     | **0-D** | Scalar value (single number)  | `np.array(10)`                            |
-     | **1-D** | One-dimensional array         | `np.array([1,2,3])`                       |
-     | **2-D** | Two-dimensional (matrix)      | `np.array([[1,2,3],[4,5,6]])`             |
-     | **3-D** | Three-dimensional (cube-like) | `np.array([[[1,2],[3,4]],[[5,6],[7,8]]])` |
+     |   0-D   | Scalar value (single number)  | `np.array(10)`                            |
+     |   1-D   | One-dimensional array         | `np.array([1,2,3])`                       |
+     |   2-D   | Two-dimensional (matrix)      | `np.array([[1,2,3],[4,5,6]])`             |
+     |   3-D   | Three-dimensional (cube-like) | `np.array([[[1,2],[3,4]],[[5,6],[7,8]]])` |
+
+--> Example:
+a = np.array(10)                       # 0D
+b = np.array([1, 2, 3])                # 1D
+c = np.array([[1, 2, 3], [4, 5, 6]])   # 2D
+d = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])  # 3D
+
+print(a.ndim)  # Output: 0
+print(b.ndim)  # Output: 1
+print(c.ndim)  # Output: 2
+print(d.ndim)  # Output: 3
+
+
+--> ⚙️ Array Attributes
+     | Attribute  | Description              | Example        |
+     | ---------- | ------------------------ | -------------- |
+     | `ndim`     | Number of dimensions     | `arr.ndim`     |
+     | `shape`    | Rows × Columns           | `arr.shape`    |
+     | `size`     | Total number of elements | `arr.size`     |
+     | `dtype`    | Data type                | `arr.dtype`    |
+     | `itemsize` | Bytes per element        | `arr.itemsize` |
+
+--> Example:
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print("Shape:", arr.shape)
+print("Dimensions:", arr.ndim)
+print("Size:", arr.size)
+print("Data Type:", arr.dtype)
+
