@@ -1,0 +1,10 @@
+--> What is an Array?
+    NumPy, an array is a container that holds multiple values of the same data type.
+
+--> 🧮 Types of Arrays
+     | Type    |        Description            |               Example                     |
+     | ------- | ----------------------------- | ----------------------------------------- |
+     | **0-D** | Scalar value (single number)  | `np.array(10)`                            |
+     | **1-D** | One-dimensional array         | `np.array([1,2,3])`                       |
+     | **2-D** | Two-dimensional (matrix)      | `np.array([[1,2,3],[4,5,6]])`             |
+     | **3-D** | Three-dimensional (cube-like) | `np.array([[[1,2],[3,4]],[[5,6],[7,8]]])` |
