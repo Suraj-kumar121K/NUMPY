@@ -7,11 +7,11 @@ This course will cover everything you need to master NumPy!
 ---
 
 ## 🛠️ Important Links & Tools:
-**👉 [NumPy Doc](https://numpy.org/doc/stable/):** Access to the course Numpy (csv files).
-**👉 [Python Server Download](https://www.python.org/):** You can download Python from this link..
-**👉 [Visual Studio Code](https://code.visualstudio.com/):** You can write Python here.
-**👉 [Anaconda](https://www.anaconda.com/download):** How to use NumPy in Jupyter Notebook.
-**👉 [Jupyter Notebook](https://www.anaconda.com/download/):** Best for practicing NumPy interactively.
+- **👉 [NumPy Doc](https://numpy.org/doc/stable/):** Access to the course Numpy (csv files).
+- **👉 [Python Server Download](https://www.python.org/):** You can download Python from this link..
+- **👉 [Visual Studio Code](https://code.visualstudio.com/):** You can write Python here.
+- **👉 [Anaconda](https://www.anaconda.com/download):** How to use NumPy in Jupyter Notebook.
+- **👉 [Jupyter Notebook](https://www.anaconda.com/download/):** Best for practicing NumPy interactively.
 
 
 ---
